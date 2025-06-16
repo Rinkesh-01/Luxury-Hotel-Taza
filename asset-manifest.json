@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Luxury-Hotel-Taza/static/css/main.f056d19f.css",
+    "main.js": "/Luxury-Hotel-Taza/static/js/main.6c84f563.js",
+    "index.html": "/Luxury-Hotel-Taza/index.html",
+    "main.f056d19f.css.map": "/Luxury-Hotel-Taza/static/css/main.f056d19f.css.map",
+    "main.6c84f563.js.map": "/Luxury-Hotel-Taza/static/js/main.6c84f563.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f056d19f.css",
+    "static/js/main.6c84f563.js"
+  ]
+}

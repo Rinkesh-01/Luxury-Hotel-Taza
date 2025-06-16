@@ -1,0 +1,165 @@
+
+
+
+
+.footer {
+    background-color: #b99d75;
+    display: block;
+}
+
+.footer-container {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.footer-inner {
+    display: block;
+}
+
+.all-footer-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.all-footer-item .item {
+    display: block;
+    padding: 50px 0;
+    width: 18.66%;
+}
+
+.footer-item {
+    display: block;
+
+    width: 22%;
+    padding: 50px 0;
+}
+
+.footer-item-inner {
+    font-family: "Jost", sans-serif;
+    display: block;
+    padding: 0 20px;
+}
+
+.footer-item-inner p {
+    font-family: "Jost", sans-serif;
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    color: #564b3d;
+}
+
+.footer-item-inner .icon {
+    display: block;
+    font-size: 40px;
+}
+
+.footer-item-inner .icon #ioc {
+    width: 23%;
+}
+
+.footer-item-inner .icon #ioc:nth-child(1) {
+    width: 23%;
+    margin-left: -20px;
+}
+
+.footer-item-inner .img {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footer-item-inner .img img {
+    display: block;
+    width: 50%;
+}
+
+.footer-item-inner ul {
+    display: block;
+    color: #453a2b;
+    margin-left: -35px;
+}
+
+.footer-item-inner ul li {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    font-size: 15px;
+}
+
+.footer-item-inner ul li a {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    color: #453a2b;
+    font-size: 15px;
+}
+
+#iocn-location {
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+#iocn-phone {
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+#icon-mail {
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+
+
+
+.footer-item-inner h2 {
+    display: block;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+@media(max-width:1199px) {
+    .all-footer-item .item {
+  
+    width: 33.33%;
+}
+
+.footer-item {
+
+    width: 33.33%;
+}
+}
+@media(max-width:676px) {
+    .all-footer-item .item {
+  padding: 0px;
+  
+    width: 50%;
+}.footer-item-inner .img img {
+    height: 50px;
+}
+
+.footer-item {
+  padding: 0px;
+
+    width: 50%;
+}
+}
+@media(max-width:460px) {
+    .all-footer-item .item {
+    width: 70%;
+}
+
+.footer-item-inner .img img {
+    height: 50px;
+    padding: 20px 0;
+}
+
+.footer-item {
+
+    width: 100%;
+}
+}
+
