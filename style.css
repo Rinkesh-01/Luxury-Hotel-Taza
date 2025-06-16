@@ -2,8 +2,10 @@
     text-decoration: none;
     list-style: none;
     font-family: "Cormorant", serif;
-
-}
+  }
+  body{
+    background-color: #1a1a1a;
+  }
 
 .container {
     max-width: 1200px;
