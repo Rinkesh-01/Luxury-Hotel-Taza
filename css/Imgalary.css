@@ -1,0 +1,36 @@
+
+   .img-galary {
+    display: block;
+  background-color: #1a1a1a;
+}
+
+.img-galary-inner {
+    display: block;
+}
+
+
+
+.img-galary-inner .img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img-galary-inner .img img {
+    padding: 10px;
+    width: 16.66%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1199px) {
+    .img-galary-inner .img img {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 696px) {
+    .img-galary-inner .img img {
+        width: 50%;
+        height: 100%;
+    }
+}

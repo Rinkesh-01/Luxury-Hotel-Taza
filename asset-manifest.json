@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Luxury-Hotel-Taza/static/css/main.f056d19f.css",
-    "main.js": "/Luxury-Hotel-Taza/static/js/main.122e232c.js",
+    "main.js": "/Luxury-Hotel-Taza/static/js/main.0709b200.js",
     "index.html": "/Luxury-Hotel-Taza/index.html",
     "main.f056d19f.css.map": "/Luxury-Hotel-Taza/static/css/main.f056d19f.css.map",
-    "main.122e232c.js.map": "/Luxury-Hotel-Taza/static/js/main.122e232c.js.map"
+    "main.0709b200.js.map": "/Luxury-Hotel-Taza/static/js/main.0709b200.js.map"
   },
   "entrypoints": [
     "static/css/main.f056d19f.css",
-    "static/js/main.122e232c.js"
+    "static/js/main.0709b200.js"
   ]
 }

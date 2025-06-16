@@ -1,0 +1,163 @@
+/* ------------------------------------------hero section start -------------------------------------------- */
+.hero {
+    display: block;
+    position: relative;
+    margin: 0px;
+}
+
+.hero-container {
+    display: block;
+    margin: 0 auto;
+    width: 1468px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.hero-innner {
+    display: block;
+
+}
+
+.hero-innner .img {
+    display: block;
+    padding: 0;
+
+}
+
+.img img {
+    width: 100%;
+
+
+}
+
+
+.text {
+    color: #f3eee7;
+    text-transform: uppercase;
+    font-size: 38px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    left: 24%;
+    right: 20%;
+    top: 24%;
+}
+
+.text a {
+    background-color: #b99d75;
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: -20px;
+    padding: 12px 40px;
+    text-transform: capitalize;
+}
+
+
+.text a:hover {
+    background-color: #f3eee7;
+    color: #585858;
+    transition-duration: 1s;
+}
+
+
+/* ------------------------------------------hero section start -------------------------------------------- */
+
+
+@media (max-width:1199px) {
+
+
+
+
+
+    .text {
+        font-size: 30px;
+        line-height: 50px;
+        left: 24%;
+        right: 20%;
+        top: 24%;
+    }
+
+    .text a {
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width:991px) {
+
+
+    .text {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .text a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .text {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .text a {
+        font-size: 12px;
+        margin-top: -10px;
+        padding: 10px 35px;
+    }
+
+}
+
+@media (max-width:639px) {
+
+
+
+    .text {
+        font-size: 14px;
+        line-height: 25px;
+
+    }
+
+    .text a {
+        font-size: 12px;
+        margin-top: -10px;
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width:480px) {
+
+
+    .img img {
+        height: 300px;
+        width: 100%;
+
+
+
+    }
+
+    .text {
+        font-size: 19px;
+        line-height: 40px;
+        left: 14%;
+        right: 14%;
+        top: 15%;
+
+    }
+
+
+
+
+    .text a {
+        font-size: 15px;
+        padding: 4px 7px;
+    }
+
+}

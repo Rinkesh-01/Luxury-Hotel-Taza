@@ -1,0 +1,169 @@
+
+.aminities {
+    display: block;
+    background-color: #000000;
+    margin: -50px 0;
+}
+
+.aminities-container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1300px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.aminities-inner {
+    display: block;
+}
+
+.aminities-title {
+    display: block;
+    padding-top: 20px;
+    text-align: start;
+}
+
+.aminities-title h6 {
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #c9a961;
+    margin-bottom: -35px;
+    line-height: 1;
+}
+
+.aminities-title p {
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.aminities-title p span {
+    display: block;
+}
+
+
+.aminities-all-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aminities-all-block .block {
+    display: flex;
+    width: 33.33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.aminities-all-block .block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/par.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 0;
+}
+
+.aminities-all-block .block:nth-child(2):before {
+    background-image: url('/img/relex.jpg');
+}
+
+.aminities-all-block .block:nth-child(3):before {
+    background-image: url('/img/par3.jpg');
+}
+
+.aminities-all-block .block:nth-child(4):before {
+    background-image: url('/img/par4.jpg');
+}
+
+.aminities-all-block .block:nth-child(5):before {
+    background-image: url('/img/par5.jpg');
+}
+
+.aminities-all-block .block:nth-child(6):before {
+    background-image: url('/img/par7.jpg');
+}
+
+.aminities-all-block .block:nth-child(7):before {
+    background-image: url('/img/par6.jpg');
+}
+
+.aminities-all-block .block:nth-child(8):before {
+    background-image: url('/img/par8.jpg');
+}
+
+.aminities-all-block .block:nth-child(9):before {
+    background-image: url('/img/par9.jpg');
+}
+
+.aminities-all-block .block:hover::before {
+    opacity: 0.3;
+    border: 1px solid #ffffff;
+}
+
+.aminities-all-block .block .icon,
+.aminities-all-block .block .content {
+    position: relative;
+    z-index: 1;
+}
+
+.aminities-all-block .block .icon {
+    color: #c9a961;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.aminities-all-block .block .content h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: -5px;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.aminities-all-block .block .content p {
+    font-weight: 200;
+    font-family: "Jost", sans-serif;
+    line-height: 1.5;
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* Tablet: 2 per row */
+@media screen and (max-width: 992px) {
+  .aminities-all-block .block {
+    width: 50%;
+  }
+}
+
+/* Mobile: 1 per row */
+@media screen and (max-width: 600px) {
+  .aminities-all-block .block {
+    width: 100%;
+  }
+  .aminities-title p {
+    font-size:35px;
+    padding: 5px 0;
+}
+}
+
+
