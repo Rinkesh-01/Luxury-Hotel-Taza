@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://rinkesh-01.github.io/Luxury-Hotel-Taza/sitemap.xml
